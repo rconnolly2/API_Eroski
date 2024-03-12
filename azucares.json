@@ -1,0 +1,142 @@
+{
+    "0": {
+        "titulo": "Az\u00facar blanco AZUCARERA, paquete 2 kg",
+        "precio": "2,88\u20ac",
+        "precio_peso": "1 KILO A 1,44\u20ac",
+        "img": "https://supermercado.eroski.es/images/23498777.jpg",
+        "estrellas": "0"
+    },
+    "1": {
+        "titulo": "Polvo para hornear impulsor gasificante ROYAL, caja 80 g",
+        "precio": "2,25\u20ac",
+        "precio_peso": "1 KILO A 28,13\u20ac",
+        "img": "https://supermercado.eroski.es/images/21815469.jpg",
+        "estrellas": "0"
+    },
+    "2": {
+        "titulo": "Az\u00facar blanco AZUCARERA, paquete 1 kg",
+        "precio": "1,45\u20ac",
+        "precio_peso": null,
+        "img": "https://supermercado.eroski.es/images/2453884.jpg",
+        "estrellas": "1"
+    },
+    "3": {
+        "titulo": "Az\u00facar moreno AZUCARERA, brik 800 g",
+        "precio": "1,99\u20ac",
+        "precio_peso": "1 KILO A 2,49\u20ac",
+        "img": "https://supermercado.eroski.es/images/17684671.jpg",
+        "estrellas": "1"
+    },
+    "4": {
+        "titulo": "Panela de Colombia AZUCARERA, paquete 500 g",
+        "precio": "2,19\u20ac",
+        "precio_peso": "1 KILO A 4,38\u20ac",
+        "img": "https://supermercado.eroski.es/images/21734629.jpg",
+        "estrellas": "0"
+    },
+    "5": {
+        "titulo": "Az\u00facar moreno AZUCARERA, paquete 1 kg",
+        "precio": "2,05\u20ac",
+        "precio_peso": null,
+        "img": "https://supermercado.eroski.es/images/24570749.jpg",
+        "estrellas": "2"
+    },
+    "6": {
+        "titulo": "Azucaritos AZUCARERA, caja 300 g",
+        "precio": "1,45\u20ac",
+        "precio_peso": "1 KILO A 4,83\u20ac",
+        "img": "https://supermercado.eroski.es/images/17564337.jpg",
+        "estrellas": "0"
+    },
+    "7": {
+        "titulo": "Edulcorante BAQU\u00c9, caja 60 sobres",
+        "precio": "2,05\u20ac",
+        "precio_peso": "1 KILO A 34,17\u20ac",
+        "img": "https://supermercado.eroski.es/images/324459.jpg",
+        "estrellas": "1"
+    },
+    "8": {
+        "titulo": "Edulcorante l\u00edquido sacarina EROSKI, botell\u00edn 250 ml",
+        "precio": "1,42\u20ac",
+        "precio_peso": null,
+        "img": "https://supermercado.eroski.es/images/25258211.jpg",
+        "estrellas": "0"
+    },
+    "9": {
+        "titulo": "Az\u00facar moreno SIDUL, paquete 1 kg",
+        "precio": "2,49\u20ac",
+        "precio_peso": null,
+        "img": "https://supermercado.eroski.es/images/19318112.jpg",
+        "estrellas": "1"
+    },
+    "10": {
+        "titulo": "Edulcorante en polvo stevia EROSKI, bote 250 g",
+        "precio": "4,00\u20ac",
+        "precio_peso": "1 KILO A 16,00\u20ac",
+        "img": "https://supermercado.eroski.es/images/25290198.jpg",
+        "estrellas": "0"
+    },
+    "11": {
+        "titulo": "Edulcorante en comprimidos NATREEN, dosificador 400 uds",
+        "precio": "4,29\u20ac",
+        "precio_peso": null,
+        "img": "https://supermercado.eroski.es/images/374348.jpg",
+        "estrellas": "0"
+    },
+    "12": {
+        "titulo": "Edulcorante sacarina EROSKI, caja 64 sobres",
+        "precio": "1,28\u20ac",
+        "precio_peso": "1 KILO A 20,00\u20ac",
+        "img": "https://supermercado.eroski.es/images/25258260.jpg",
+        "estrellas": "0"
+    },
+    "13": {
+        "titulo": "Casta\u00f1as peladas-asadas DLV, bolsa 100 g",
+        "precio": "1,65\u20ac",
+        "precio_peso": "1 KILO A 16,50\u20ac",
+        "img": "https://supermercado.eroski.es/images/22914535.jpg",
+        "estrellas": "0"
+    },
+    "14": {
+        "titulo": "Aroma de vainilla VAHIN\u00c9, bote 200 ml",
+        "precio": "4,79\u20ac",
+        "precio_peso": "1 LITRO A 23,95\u20ac",
+        "img": "https://supermercado.eroski.es/images/314682.jpg",
+        "estrellas": "0"
+    },
+    "15": {
+        "titulo": "Az\u00facar blanquilla AZUCARERA, brik 800 g",
+        "precio": "1,75\u20ac",
+        "precio_peso": "1 KILO A 2,19\u20ac",
+        "img": "https://supermercado.eroski.es/images/17684655.jpg",
+        "estrellas": "0"
+    },
+    "16": {
+        "titulo": "Sirope de Agave VERITAS, bote 350 g",
+        "precio": "3,60\u20ac",
+        "precio_peso": null,
+        "img": "https://supermercado.eroski.es/images/16073207.jpg",
+        "estrellas": "0"
+    },
+    "17": {
+        "titulo": "Panela Comercio Justo eco VERITAS, bolsa 500 g",
+        "precio": "2,59\u20ac",
+        "precio_peso": "1 KILO A 5,18\u20ac",
+        "img": "https://supermercado.eroski.es/images/23444896.jpg",
+        "estrellas": "0"
+    },
+    "18": {
+        "titulo": "Almendra molida EROSKI, bolsa 100 g",
+        "precio": "1,75\u20ac",
+        "precio_peso": null,
+        "img": "https://supermercado.eroski.es/images/22344477.jpg",
+        "estrellas": "0"
+    },
+    "19": {
+        "titulo": "Gelatina de fresa EROSKI, caja 170 g",
+        "precio": "1,55\u20ac",
+        "precio_peso": "1 KILO A 9,12\u20ac",
+        "img": "https://supermercado.eroski.es/images/22344204.jpg",
+        "estrellas": "2"
+    }
+}
