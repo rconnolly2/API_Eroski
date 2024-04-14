@@ -18,17 +18,29 @@ with open("cereales.json", "r") as file:
 def home():
     return {"Datos": "Hola mundo"}
 
-@app.get("/recetas")
-def home():
-    return {"receta": "Melon"}
-
-@app.get("/inventario/{json_file}/{id_item}/{parametro}")
-def inventario_param(json_file: str, id_item: str = Path(description="El identificador único del item"), parametro: str = Path(description="El parámetro que queremos obtener del item")):
-    if json_file == "carnes":
+@app.get("/inventario/{archivo_json}/{id_item}")
+def inventario_info(archivo_json: str, id_item: str = Path(description="El identificador único del item")):
+    if archivo_json == "carnes":
         resultado = resultado_url1
-    elif json_file == "azucares":
+    elif archivo_json == "azucares":
         resultado = resultado_url2
-    elif json_file == "cereales":
+    elif archivo_json == "cereales":
+        resultado = resultado_url3
+    else:
+        return {"Error": "Archivo JSON no encontrado"}
+
+    if id_item in resultado:
+        print(resultado[str(id_item)])
+        return {resultado[str(id_item)]}
+    return {"Datos": "Item no encontrado"}
+
+@app.get("/inventario/{archivo_json}/{id_item}/{parametro}")
+def inventario_param(archivo_json: str, id_item: str = Path(description="El identificador único del item"), parametro: str = Path(description="El parámetro que queremos obtener del item")):
+    if archivo_json == "carnes":
+        resultado = resultado_url1
+    elif archivo_json == "azucares":
+        resultado = resultado_url2
+    elif archivo_json == "cereales":
         resultado = resultado_url3
     else:
         return {"Error": "Archivo JSON no encontrado"}
