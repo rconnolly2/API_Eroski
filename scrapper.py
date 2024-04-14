@@ -83,7 +83,7 @@ for hilo in threading.enumerate():
     if hilo != threading.current_thread():
         hilo.join()
 
-print(json_builder.resultado)
+#print(json_builder.resultado)
 
     
 
