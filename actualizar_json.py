@@ -1,18 +1,18 @@
 import json
 from scrapper import Json_Builder
 
-def ProcesarGuardar(url, output_filename):
+def ProcesarGuardar(url, ruta_salida):
     json_builder = Json_Builder(url)
     resultado = json_builder.GetDatos(url)
     datos_existentes = {}
     try:
-        with open(output_filename, 'r') as infile:
-            existing_data = json.load(infile)
+        with open(ruta_salida, 'r') as arch_input:
+            datos_existentes = json.load(arch_input)
     except FileNotFoundError:
         pass
     datos_existentes.update(resultado)
-    with open(output_filename, 'w') as outfile:
-        json.dump(existing_data, outfile, indent=4)
+    with open(ruta_salida, 'w') as arch_input:
+        json.dump(datos_existentes, arch_input, indent=4)
 
 if __name__ == "__main__":
     urls = [

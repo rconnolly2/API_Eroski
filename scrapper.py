@@ -1,6 +1,20 @@
 from bs4 import BeautifulSoup, Tag
+from abc import ABC, abstractmethod
 import requests
 import threading
+
+class JsonBuilderABC(ABC):
+    @abstractmethod
+    def GetIngredientes(self, doc, dic_item):
+        pass
+
+    @abstractmethod
+    def GetInstruccionesConservacion(self, doc, dic_item):
+        pass
+
+    @abstractmethod
+    def GetInfoNutricional(self, doc, dic_item):
+        pass
 
 class Json_Builder:
     def __init__(self, url):
@@ -79,9 +93,13 @@ class Json_Builder:
 
 json_builder = Json_Builder("https://supermercado.eroski.es/es/supermercado/2059698-frescos/2059746-carnes-y-aves/")
 
-for hilo in threading.enumerate():
-    if hilo != threading.current_thread():
-        hilo.join()
+hilos = threading.enumerate()
+num_hilos = len(hilos)
+
+for i in range(num_hilos):
+    hilo_actual = hilos[i]
+    if hilo_actual != threading.current_thread():
+        hilo_actual.join()
 
 #print(json_builder.resultado)
 
