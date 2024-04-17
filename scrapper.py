@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 import requests
 import threading
 
-class JsonBuilderABC(ABC):
+class JsonBuilderAbstracto(ABC):
     @abstractmethod
     def GetIngredientes(self, doc, dic_item):
         pass
@@ -16,7 +16,7 @@ class JsonBuilderABC(ABC):
     def GetInfoNutricional(self, doc, dic_item):
         pass
 
-class Json_Builder:
+class Json_Builder(JsonBuilderAbstracto):
     def __init__(self, url):
         self.resultado = {}
         self.GetDatos(url)
